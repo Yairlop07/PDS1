@@ -73,5 +73,15 @@ elif tarea == "tarea_4":
     print(f"Ejecutando TAREA 4 con {n_bits} bits...")
     ejecutar_tarea_4(n_bits)
 
+elif tarea == "examen_p1":
+    print("Ejecutando EXAMEN P1 (DFT)...")
+    from src.examen_p1 import run
+    run()
+
+elif tarea == "examen_p2":
+    print("Ejecutando EXAMEN P2 (Señal con ruido y DFT)...")
+    from src.examen_p2 import run
+    run()
+
 else:
     print(f"Tarea desconocida: {tarea}")
